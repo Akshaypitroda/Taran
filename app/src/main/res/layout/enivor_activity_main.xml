@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enivorMainActivity"
+    android:background="@drawable/ed1"
+    android:alpha="0.8">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/txtUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enivorment"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/txtUploadImage"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/imagepreview"
+        />
+
+
+
+    <Button
+        android:id="@+id/chooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPreview"
+        android:layout_marginTop="40px"
+        android:drawableLeft="@drawable/icon_camera"
+        android:text="Chooese Image to Upload"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/imgDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="NGO NAME"
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:textColorHint="#fafafa"
+
+        />
+    <EditText
+        android:id="@+id/seconddesc"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/imgDescription"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:textColorHint="#fafafa"
+
+
+        />
+    <EditText
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/seconddesc"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Contact No"
+        android:inputType="number"
+        android:gravity="top"
+        android:maxLength="10"
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:textColorHint="#fafafa"
+
+
+        />
+        <EditText
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/third"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:gravity="top"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:textColorHint="#fafafa"
+
+
+            />
+        <ProgressBar
+            android:id="@+id/uploadProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/four" />
+
+
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/icon_upload"
+        android:text="Upload Details"
+        android:textSize="18sp"
+        android:layout_below="@id/four"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="View Gallery"
+        android:id="@+id/viewGallery"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

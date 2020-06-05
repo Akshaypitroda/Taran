@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="#3D320B"
+    tools:context=".home">
+    <include layout="@layout/video_sign_in"></include>
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/t" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="#fff"
+        android:text="About Us:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="480dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="#fafafa"
+
+      android:text="The Tarana NGO android application has been provided to the direct customers who are behind the NGO's smooth run and handle it solely.This application also known as informative dashboard provides an easy and efficient way to  manage their several organization and reach to the people directly.
+" />
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="540dp"
+         android:gravity="bottom|right"
+         android:onClick="Skip"
+         android:textColor="#fff"
+         android:text="Skip>>"
+         android:textStyle="bold"
+         android:textSize="20dp"/>-->
+   <!-- <Button
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:gravity="bottom|left"
+        android:textColor="#F8C408"
+        android:text="Instant Help?"
+        android:textStyle="bold"
+        android:onClick="help"
+        android:textSize="20dp"
+        android:background="#3D320B"/>-->
+
+
+</FrameLayout>
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstpage"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ta"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तारण"
+        android:textColor="#fafafa"
+        android:textSize="22dp"
+        android:textStyle="normal|bold"/>
+</LinearLayout>
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIVE A HAND"
+        android:textColor="#FFAB00"
+        android:textSize="40dp"
+
+        android:gravity="center"
+        android:layout_marginLeft="70dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    TO MAKE THE BETTER \n
+                  WORLD"
+        android:paddingTop="150dp"
+        android:textSize="28dp"
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="250dp"
+        android:text="    That don't lights. Blessed land spirit creature \n
+       divide our made two itself upon you'll \n
+      dominion waters man second good you \n
+   they're divided upon winged were replenish \n
+                                    night "
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/new1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign Up?"
+        android:textColor="#ffffff"
+        android:onClick="news"
+        android:background="#64DD17"
+        />
+    <Button
+        android:id="@+id/log1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Sign In "
+        android:textColor="#ffffff"
+        android:onClick="logins"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFAB00"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/ad1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="480dp"
+        android:text="Admin Login "
+        android:gravity="center"
+        android:layout_marginLeft="107dp"
+        android:textColor="#ffffff"
+        android:onClick="Admins"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
